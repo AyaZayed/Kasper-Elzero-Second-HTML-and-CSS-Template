@@ -1,0 +1,15 @@
+:root {
+  --bright-blue: #19c8fa;
+  --dark-blue: rgb(15 116 143 / 70%);
+  --section-padding: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
