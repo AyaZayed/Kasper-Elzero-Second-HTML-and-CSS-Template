@@ -253,3 +253,56 @@ nav .search i:hover {
     margin-right: 0;
   }
 }
+
+.design {
+  background: url(../images/design-features.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  align-items: center;
+  height: 600px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 60%);
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.design .image {
+  text-align: center;
+}
+
+.design .image img {
+  position: relative;
+  bottom: -150px;
+}
+
+.design .text {
+  color: #fff;
+  background-color: var(--dark-blue);
+  padding: 50px;
+}
+
+.design .image,
+.design .text {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+
+.design .text h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.design .text li {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.design .text li i {
+  font-size: 16px;
+  margin-right: 1rem;
+}
