@@ -379,3 +379,53 @@ nav .search i:hover {
   text-transform: uppercase;
   display: block;
 }
+
+.video-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 40%);
+  background-blend-mode: multiply;
+}
+
+.video-section video {
+  object-fit: cover;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.video-section .text {
+  background-color: var(--dark-blue);
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  min-width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.video-section .text h2 {
+  font-weight: 400;
+}
+
+.video-section .text h2,
+p {
+  margin-bottom: 1.5rem;
+}
+
+.video-section .text a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 15px;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
