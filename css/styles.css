@@ -261,7 +261,7 @@ nav .search i:hover {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   align-items: center;
-  height: 600px;
+  height: 100vh;
   position: relative;
   background-color: rgba(0, 0, 0, 60%);
   background-blend-mode: multiply;
@@ -428,4 +428,19 @@ p {
   display: block;
   width: fit-content;
   margin: auto;
+}
+
+.about-section {
+  padding-top: var(--section-padding);
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+}
+
+.about-section img {
+  position: relative;
+  bottom: -120px;
+  margin-top: -120px;
+  max-width: 100%;
 }
