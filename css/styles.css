@@ -22,6 +22,24 @@ body {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 .section-heading p {
   color: #777;
   line-height: 30px;
@@ -699,4 +717,21 @@ p {
     text-align: center;
     margin-top: 1rem;
   }
+}
+
+.quote {
+  background: url(../images/quote.jpg) no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 75%);
+  background-blend-mode: multiply;
+  color: #fff;
+  text-align: center;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.quote q {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 20px;
 }
